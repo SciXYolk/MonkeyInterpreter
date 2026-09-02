@@ -15,6 +15,8 @@ func New(input string) *Lexer {
 	return l
 }
 
+// gives us the next character and push forward the position in the input string
+// It checks if it has reached the input end
 func (l *Lexer) readChar() {
 	if l.readPosition >= len(l.input) {
 		l.ch = 0
