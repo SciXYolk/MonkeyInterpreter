@@ -1,0 +1,11 @@
+# Binaries
+*.exe
+*.exe.manifest
+*.dll
+*.so
+*.dylib
+monkey
+
+# Environment / OS files
+.DS_Store
+Thumbs.db
